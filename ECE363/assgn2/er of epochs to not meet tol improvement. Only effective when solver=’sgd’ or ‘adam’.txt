@@ -1,0 +1,2 @@
+er of epochs to not meet tol improvement. Only effective when solver=’sgd’ or ‘adam’.
+
