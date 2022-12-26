@@ -42,7 +42,7 @@ for i in range(len(time_grid)):
     ref_state = refModel.state
     ref_sig = refSignal[i]
     true_delta = float(model.delta)
-    estimate_delta = float(agent.delta_estimate)
+    estimate_delta = float(agent.d2elta_estimate)
 
    
     action = agent.getCntrl(state, ref_state, ref_sig)
